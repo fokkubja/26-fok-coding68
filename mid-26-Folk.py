@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyNEGl4IURJjgzQP62cUms9D",
+      "authorship_tag": "ABX9TyM3AXW1KzorUPyejNFWtZGR",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -42,18 +42,23 @@
         "print('สวัสดีครับ',name,'พร้อมที่จะคำนวณแล้วใช่ไหมครับ')\n",
         "p = int(input(\"ใส่ค่าของ pressure\"))\n",
         "v = int(input(\"ใส่ค่าของ volume\"))\n",
-        "print ('จะคำนวณโดยใช้สูตร T = (pressure x volume)/(8.314 x 1) ครับ')\n",
-        "t = (p*v)/(8.314*1)\n",
-        "print('ค่าของ temperature คือ',t)"
+        "if  p<=0:\n",
+        "  print('หาค่าไม่ได้')\n",
+        "if v<=0:\n",
+        "  print('หาค่าไม่ได้')\n",
+        "else :\n",
+        "  print('จะคำนวณโดยใช้สูตร T = (pressure x volume)/(8.314 x 1) ครับ')\n",
+        "  t = (p*v)/(8.314*1)\n",
+        "  print('ค่าของ temperature คือ',t)"
       ],
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
         "id": "IeXG-P9Yphdl",
-        "outputId": "94dc894f-1927-4426-a5b9-5b53ef5b5c94"
+        "outputId": "e77d4cde-1920-4c58-81ef-37d3733138cc"
       },
-      "execution_count": 37,
+      "execution_count": 55,
       "outputs": [
         {
           "output_type": "stream",
@@ -61,10 +66,10 @@
           "text": [
             "การุณาใช่ใส่ชื่อเล่นของท่านfok\n",
             "สวัสดีครับ fok พร้อมที่จะคำนวณแล้วใช่ไหมครับ\n",
-            "ใส่ค่าของ pressure30\n",
-            "ใส่ค่าของ volume30\n",
-            "จะคำนวณโดยใช้สูตร T = (pressure x volume)/(8.314 x 1) ครับ\n",
-            "ค่าของ temperature คือ 108.2511426509502\n"
+            "ใส่ค่าของ pressure-5\n",
+            "ใส่ค่าของ volume-5\n",
+            "หาค่าไม่ได้\n",
+            "หาค่าไม่ได้\n"
           ]
         }
       ]
