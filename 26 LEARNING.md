@@ -16,7 +16,9 @@ Output
 
 
 20/01/69
+
 โค้ด โปรแกรม tdee
+
 w = int(input("น้ำหนัก(กก.)"))
 cm = int(input("ส่วนสูง(ซม.)"))
 a = int(input("อายุ"))
