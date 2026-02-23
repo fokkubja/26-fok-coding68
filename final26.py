@@ -7,6 +7,15 @@ O : เกรดที่ได้
 ตัวแปร : sc (score) , grade
 
 """
+# -*- coding: utf-8 -*-
+"""final26.py
+
+Automatically generated bab.y Col
+
+Original file is located at
+    https://colab.research.google.com/drive/1fcrMlY3ZmCAeOLO3VzpY0zs0iG_FqMkL
+"""
+
 print("📘 สวัสดีครับ โปรแกรมคำนวณเกรดพร้อมแล้วครับ")
 
 try:
